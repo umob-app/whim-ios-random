@@ -1,11 +1,11 @@
 import XCTest
-@testable import whim_ios_random
+@testable import WhimRandom
 
-final class whim_ios_randomTests: XCTestCase {
+final class WhimRandomTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(whim_ios_random().text, "Hello, World!")
+        XCTAssertEqual(WhimRandom().text, "Hello, World!")
     }
 }
