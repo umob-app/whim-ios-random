@@ -17,14 +17,14 @@ Seedable Xoroshiro random generator • Random extensions for Swift standard typ
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |cs|
-    cs.source_files = 'Sources/WhimRandom/Core/**/*.{swift}'
+    cs.source_files = 'Sources/WhimRandom/**/*.{swift,stencil}'
     cs.resource_bundles = {
       'Resources' => ['Sources/Resources/**/*.json', 'Sources/Resources/**/*.yml']
     }
   end
 
   s.subspec 'Templates' do |ts|
-    ts.dependency 'WhimRandom/Core'
-    ts.resources = 'Sources/WhimRandom/Templates/*.stencil'
+    ts.dependency 'Core'
+    ts.resources = 'Sources/WhimRandom/Templates/**/*.{stencil}'
   end
 end

@@ -1,0 +1,18 @@
+PODS:
+  - WhimRandom (0.1.0):
+    - WhimRandom/Core (= 0.1.0)
+  - WhimRandom/Core (0.1.0)
+
+DEPENDENCIES:
+  - WhimRandom (from `../`)
+
+EXTERNAL SOURCES:
+  WhimRandom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WhimRandom: 69158b4a2e716233ea8027e75cf04fc62531bbfd
+
+PODFILE CHECKSUM: ef31b329360b94c33d9accf7acf8f57aff5afd53
+
+COCOAPODS: 1.11.3
