@@ -25,6 +25,6 @@ Seedable Xoroshiro random generator • Random extensions for Swift standard typ
 
   s.subspec 'Templates' do |ts|
     ts.dependency 'WhimRandom/Core'
-    ts.resources = 'Sources/WhimRandom/Templates/**/*.{stencil}'
+    ts.resources = 'Sources/WhimRandom/Templates/*.stencil'
   end
 end
