@@ -1,0 +1,9 @@
+coverage_service: cobertura_xml
+xcodeproj: WhimRandomExample/WhimRandomExample.xcodeproj
+workspace: WhimRandomExample/WhimRandomExample.xcworkspace
+scheme: WhimRandomExample
+output_directory: ./Build
+build_directory: ./Build
+binary-file: ../../Library/Developer/Xcode/DeliveredData
+ignore: 
+ - WhimRandomExample/Pods/*

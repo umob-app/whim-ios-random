@@ -7,27 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15358A9D9854B143394214B7 /* Pods_WhimRandomExample_WhimRandomExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A42985650C2B4C058254C /* Pods_WhimRandomExample_WhimRandomExampleUITests.framework */; };
 		803FB734DA0E86E755EB3284 /* Pods_WhimRandomExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662079AA829F28EDBB62EDA8 /* Pods_WhimRandomExampleTests.framework */; };
 		9A0372152921C02A374F4C01 /* Pods_WhimRandomExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E84677D3B136276BE5ADE2C /* Pods_WhimRandomExample.framework */; };
+		E80607202913E3FF002AD719 /* WhimRandomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E806071F2913E3FF002AD719 /* WhimRandomTests.swift */; };
 		E8D51503290ACF4900A9729F /* WhimRandomExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D51502290ACF4900A9729F /* WhimRandomExampleApp.swift */; };
 		E8D51505290ACF4900A9729F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D51504290ACF4900A9729F /* ContentView.swift */; };
 		E8D51507290ACF4A00A9729F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D51506290ACF4A00A9729F /* Assets.xcassets */; };
 		E8D5150A290ACF4A00A9729F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D51509290ACF4A00A9729F /* Preview Assets.xcassets */; };
-		E8D51514290ACF4A00A9729F /* WhimRandomExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D51513290ACF4A00A9729F /* WhimRandomExampleTests.swift */; };
-		E8D5151E290ACF4A00A9729F /* WhimRandomExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5151D290ACF4A00A9729F /* WhimRandomExampleUITests.swift */; };
-		E8D51520290ACF4A00A9729F /* WhimRandomExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D5151F290ACF4A00A9729F /* WhimRandomExampleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		E8D51510290ACF4A00A9729F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E8D514F7290ACF4900A9729F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8D514FE290ACF4900A9729F;
-			remoteInfo = WhimRandomExample;
-		};
-		E8D5151A290ACF4A00A9729F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E8D514F7290ACF4900A9729F /* Project object */;
 			proxyType = 1;
@@ -45,6 +35,7 @@
 		B8C7C0A99C1BCF8ED40ACEA1 /* Pods-WhimRandomExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhimRandomExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-WhimRandomExampleTests/Pods-WhimRandomExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D67DABA69F9B8AD4917CAAD1 /* Pods-WhimRandomExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhimRandomExampleTests.release.xcconfig"; path = "Target Support Files/Pods-WhimRandomExampleTests/Pods-WhimRandomExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		DCC7402C53C3FEB83053F02E /* Pods-WhimRandomExample-WhimRandomExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhimRandomExample-WhimRandomExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-WhimRandomExample-WhimRandomExampleUITests/Pods-WhimRandomExample-WhimRandomExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E806071F2913E3FF002AD719 /* WhimRandomTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhimRandomTests.swift; sourceTree = "<group>"; };
 		E85A42985650C2B4C058254C /* Pods_WhimRandomExample_WhimRandomExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhimRandomExample_WhimRandomExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D514FF290ACF4900A9729F /* WhimRandomExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhimRandomExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D51502290ACF4900A9729F /* WhimRandomExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhimRandomExampleApp.swift; sourceTree = "<group>"; };
@@ -52,10 +43,6 @@
 		E8D51506290ACF4A00A9729F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8D51509290ACF4A00A9729F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8D5150F290ACF4A00A9729F /* WhimRandomExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhimRandomExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8D51513290ACF4A00A9729F /* WhimRandomExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhimRandomExampleTests.swift; sourceTree = "<group>"; };
-		E8D51519290ACF4A00A9729F /* WhimRandomExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhimRandomExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8D5151D290ACF4A00A9729F /* WhimRandomExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhimRandomExampleUITests.swift; sourceTree = "<group>"; };
-		E8D5151F290ACF4A00A9729F /* WhimRandomExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhimRandomExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				803FB734DA0E86E755EB3284 /* Pods_WhimRandomExampleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8D51516290ACF4A00A9729F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15358A9D9854B143394214B7 /* Pods_WhimRandomExample_WhimRandomExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +85,16 @@
 				B8C7C0A99C1BCF8ED40ACEA1 /* Pods-WhimRandomExampleTests.debug.xcconfig */,
 				D67DABA69F9B8AD4917CAAD1 /* Pods-WhimRandomExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E806071E2913E3FF002AD719 /* WhimRandomTests */ = {
+			isa = PBXGroup;
+			children = (
+				E806071F2913E3FF002AD719 /* WhimRandomTests.swift */,
+			);
+			name = WhimRandomTests;
+			path = ../../Tests/WhimRandomTests;
 			sourceTree = "<group>";
 		};
 		E8D514F6290ACF4900A9729F = {
@@ -115,7 +102,6 @@
 			children = (
 				E8D51501290ACF4900A9729F /* WhimRandomExample */,
 				E8D51512290ACF4A00A9729F /* WhimRandomExampleTests */,
-				E8D5151C290ACF4A00A9729F /* WhimRandomExampleUITests */,
 				E8D51500290ACF4900A9729F /* Products */,
 				846F84B5B490B524A33232AA /* Pods */,
 				02C9C67DC7EC9ECD28C358AF /* Frameworks */,
@@ -127,7 +113,6 @@
 			children = (
 				E8D514FF290ACF4900A9729F /* WhimRandomExample.app */,
 				E8D5150F290ACF4A00A9729F /* WhimRandomExampleTests.xctest */,
-				E8D51519290ACF4A00A9729F /* WhimRandomExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,18 +139,9 @@
 		E8D51512290ACF4A00A9729F /* WhimRandomExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				E8D51513290ACF4A00A9729F /* WhimRandomExampleTests.swift */,
+				E806071E2913E3FF002AD719 /* WhimRandomTests */,
 			);
 			path = WhimRandomExampleTests;
-			sourceTree = "<group>";
-		};
-		E8D5151C290ACF4A00A9729F /* WhimRandomExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E8D5151D290ACF4A00A9729F /* WhimRandomExampleUITests.swift */,
-				E8D5151F290ACF4A00A9729F /* WhimRandomExampleUITestsLaunchTests.swift */,
-			);
-			path = WhimRandomExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,26 +185,6 @@
 			productReference = E8D5150F290ACF4A00A9729F /* WhimRandomExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E8D51518290ACF4A00A9729F /* WhimRandomExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8D51529290ACF4A00A9729F /* Build configuration list for PBXNativeTarget "WhimRandomExampleUITests" */;
-			buildPhases = (
-				A06F4642E63C69D26DF44D49 /* [CP] Check Pods Manifest.lock */,
-				E8D51515290ACF4A00A9729F /* Sources */,
-				E8D51516290ACF4A00A9729F /* Frameworks */,
-				E8D51517290ACF4A00A9729F /* Resources */,
-				464E0410CD1EE5E66D98E672 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E8D5151B290ACF4A00A9729F /* PBXTargetDependency */,
-			);
-			name = WhimRandomExampleUITests;
-			productName = WhimRandomExampleUITests;
-			productReference = E8D51519290ACF4A00A9729F /* WhimRandomExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -243,10 +199,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					E8D5150E290ACF4A00A9729F = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = E8D514FE290ACF4900A9729F;
-					};
-					E8D51518290ACF4A00A9729F = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = E8D514FE290ACF4900A9729F;
 					};
@@ -267,7 +219,6 @@
 			targets = (
 				E8D514FE290ACF4900A9729F /* WhimRandomExample */,
 				E8D5150E290ACF4A00A9729F /* WhimRandomExampleTests */,
-				E8D51518290ACF4A00A9729F /* WhimRandomExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,13 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E8D5150D290ACF4A00A9729F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8D51517290ACF4A00A9729F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,23 +258,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhimRandomExample/Pods-WhimRandomExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		464E0410CD1EE5E66D98E672 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhimRandomExample-WhimRandomExampleUITests/Pods-WhimRandomExample-WhimRandomExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WhimRandomExample-WhimRandomExampleUITests/Pods-WhimRandomExample-WhimRandomExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhimRandomExample-WhimRandomExampleUITests/Pods-WhimRandomExample-WhimRandomExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5FDB09E601362E09002C2EEC /* [CP] Check Pods Manifest.lock */ = {
@@ -377,28 +304,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A06F4642E63C69D26DF44D49 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WhimRandomExample-WhimRandomExampleUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -415,16 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8D51514290ACF4A00A9729F /* WhimRandomExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E8D51515290ACF4A00A9729F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8D5151E290ACF4A00A9729F /* WhimRandomExampleUITests.swift in Sources */,
-				E8D51520290ACF4A00A9729F /* WhimRandomExampleUITestsLaunchTests.swift in Sources */,
+				E80607202913E3FF002AD719 /* WhimRandomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,11 +331,6 @@
 			isa = PBXTargetDependency;
 			target = E8D514FE290ACF4900A9729F /* WhimRandomExample */;
 			targetProxy = E8D51510290ACF4A00A9729F /* PBXContainerItemProxy */;
-		};
-		E8D5151B290ACF4A00A9729F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E8D514FE290ACF4900A9729F /* WhimRandomExample */;
-			targetProxy = E8D5151A290ACF4A00A9729F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -660,44 +551,6 @@
 			};
 			name = Release;
 		};
-		E8D5152A290ACF4A00A9729F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ACBB119C8DA7F0C6EBB7A65 /* Pods-WhimRandomExample-WhimRandomExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UZ338E9K2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "maas.global.whim-ios.WhimRandomExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WhimRandomExample;
-			};
-			name = Debug;
-		};
-		E8D5152B290ACF4A00A9729F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCC7402C53C3FEB83053F02E /* Pods-WhimRandomExample-WhimRandomExampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UZ338E9K2;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "maas.global.whim-ios.WhimRandomExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = WhimRandomExample;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -724,15 +577,6 @@
 			buildConfigurations = (
 				E8D51527290ACF4A00A9729F /* Debug */,
 				E8D51528290ACF4A00A9729F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8D51529290ACF4A00A9729F /* Build configuration list for PBXNativeTarget "WhimRandomExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8D5152A290ACF4A00A9729F /* Debug */,
-				E8D5152B290ACF4A00A9729F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
