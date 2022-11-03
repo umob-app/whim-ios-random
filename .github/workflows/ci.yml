@@ -32,11 +32,11 @@ jobs:
         run: |    
           gem install bundler
           bundle install           
-          cd WhimUtilsExample && bundle exec pod install --repo-update
+          cd WhimRandomExample && bundle exec pod install --repo-update
 
       - name: Running tests
         run: |                    
-          set -o pipefail && xcodebuild -workspace WhimUtilsExample/WhimUtilsExample.xcworkspace -scheme WhimUtilsExample -derivedDataPath Build/ -enableCodeCoverage YES -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' build test | xcbeautify
+          set -o pipefail && xcodebuild -workspace WhimRandomExample/WhimRandomExample.xcworkspace -scheme WhimRandomExample -derivedDataPath Build/ -enableCodeCoverage YES -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' build test | xcbeautify
 
       # Upload coverage to codecov when there is test
       # - name: Format coverage files with slather
