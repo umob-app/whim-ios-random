@@ -8,8 +8,8 @@ on:
     branches:
       - main
 
-# env:  
-#   CODECOV_TOKEN: ${{ secrets.IOS_UTILS_CODECOV_TOKEN }}     
+env:  
+  SIM_CONFIG: ${{ vars.IOS_BUILDBOX_SIMULATOR_CONFIG }}
 
 jobs:
   ci:
@@ -32,11 +32,11 @@ jobs:
         run: |    
           gem install bundler
           bundle install           
-          cd WhimRandomExample && bundle exec pod install --repo-update
+          cd WhimRandomExample && bundle exec pod install
 
       - name: Running tests
         run: |                    
-          set -o pipefail && xcodebuild -workspace WhimRandomExample/WhimRandomExample.xcworkspace -scheme WhimRandomExample -derivedDataPath Build/ -enableCodeCoverage YES -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.0' build test | xcbeautify
+          set -o pipefail && xcodebuild -workspace WhimRandomExample/WhimRandomExample.xcworkspace -scheme WhimRandomExample -derivedDataPath Build/ -enableCodeCoverage YES -sdk iphonesimulator -destination ${{env.SIM_CONFIG}} build test | xcbeautify
 
       # Upload coverage to codecov when there is test
       # - name: Format coverage files with slather
