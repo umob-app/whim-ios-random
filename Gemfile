@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "~> 2.7"
+ruby "~> 3.3"
 
-gem 'cocoapods', '1.11.3'
-gem 'slather', '2.7.2'
+gem 'fastlane', '~> 2.225'
+gem 'cocoapods', '~> 1.15', '>= 1.15.2'

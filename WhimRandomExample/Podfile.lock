@@ -1,7 +1,7 @@
 PODS:
-  - WhimRandom (0.1.0):
-    - WhimRandom/Core (= 0.1.0)
-  - WhimRandom/Core (0.1.0)
+  - WhimRandom (0.2.0):
+    - WhimRandom/Core (= 0.2.0)
+  - WhimRandom/Core (0.2.0)
 
 DEPENDENCIES:
   - WhimRandom (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WhimRandom: 69158b4a2e716233ea8027e75cf04fc62531bbfd
+  WhimRandom: 1a28a4485de6383c573c11d3b6b93ad9084809da
 
 PODFILE CHECKSUM: 06324c78f4ba815e6e81062206bf84164bea7e2f
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.16.2
