@@ -9,7 +9,7 @@ Seedable Xoroshiro random generator • Random extensions for Swift standard typ
 
   s.homepage         = 'https://gist.github.com/a-voronov/12fcc2139fa2d14e31b256b57ef83f27'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'MaaS Global' => 'tech@maas.fi' }
+  s.author           = { 'umob' => 'os@umob.app' }
   s.source           = { :git => 'https://github.com/maasglobal/whim-ios-random.git', :tag => "wr-#{s.version.to_s}"}
 
   s.ios.deployment_target = '14.0'
